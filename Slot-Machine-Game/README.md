@@ -20,10 +20,10 @@ A terminal based Python slot machine game showcasing core programming concepts t
 
 ##### Installation:
 
-###### 1. Clone The Repository
+###### **1. Clone The Repository**
 ```
-git clone https://github.com/ishfaqbuilds/Slot-Machine-Game.git
-cd Slot-Machine-Game
+git clone https://github.com/ishfaqbuilds/CppArena.git
+cd CppArena/Slot-Machine-Game
 ```
 
 ###### 2. Install Dependencies
@@ -31,7 +31,7 @@ cd Slot-Machine-Game
 pip install -r requirements.txt
 ```
 
-###### 3. Run The Game
+###### 3. Run The Program
 ```
 python src/main.py
 ```
@@ -44,12 +44,9 @@ python src/main.py
 Slot-Machine-Game/
 │
 ├── src/
-│   └── main.py          # Main game code
-│
-├── README.md            # Project documentation
-├── LICENSE              # MIT License
+│   └── main.py          # Main Game Code
+├── README.md            # Project Documentation
 ├── requirements.txt     # Dependencies
-└── .gitignore           # Ignored files
 ```
 
 ---
