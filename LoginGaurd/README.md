@@ -29,7 +29,7 @@ cd CppArena/LoginGaurd
 
 ###### 2. Compile The Program:
 ```
-g++ main.cpp -o authApp
+g++ -std=c++17 src/main.cpp -o authApp
 ```
 
 ###### 3. Run The Game
