@@ -37,8 +37,8 @@ sudo apt-get install libraylib-dev pkg-config
 
 ###### 2. Clone The Repository
 ```bash
-git clone https://github.com/ishfaqbuilds/tetris.git
-cd tetris
+git clone https://github.com/ishfaqbuilds/CppArena.git
+cd CppArena/TheTetris
 ```
 
 ###### 3. Compile The Program:
