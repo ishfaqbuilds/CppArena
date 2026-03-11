@@ -1,4 +1,6 @@
-**Key Points:** 
+## Destructor (Basic)
+
+Key Points:
 - Special function with `~` prefix 
 - Automatically called when object goes out of scope 
 - No parameters, no return type 
