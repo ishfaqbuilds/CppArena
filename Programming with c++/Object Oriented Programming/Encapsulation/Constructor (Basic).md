@@ -1,4 +1,6 @@
-**Key Points:** 
+## Constructor
+
+Key Points: 
 - Special member function with same name as class 
 - No return type 
 - Automatically called when object is created 
