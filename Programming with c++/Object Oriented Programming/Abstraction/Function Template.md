@@ -93,7 +93,7 @@ int main()
 	return 0;
 }
 ```
-[[Class Template#Generic Template (Sum)|Check Out Sum Class Template]]
+
 #### Generic Function (Multiple Parameter)
 ```cpp
 #include <iostream>
