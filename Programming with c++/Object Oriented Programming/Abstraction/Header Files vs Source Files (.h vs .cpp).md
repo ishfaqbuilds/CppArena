@@ -1,14 +1,10 @@
-- **Purpose:** Separating _declarations_ (interface) from _definitions_ (implementation) keeps projects organized and improves compile times.
+#### Purpose: Separating _declarations_ (interface) from _definitions_ (implementation) keeps projects organized and improves compile times.
     
-- **Header file (.h):**
+#### Header file (.h):
     
-    - Contains **class declarations, function prototypes, constants, macros**, and documentation.
-        
-    - No actual logic — just says _what exists_.
-    
-- **Source file (.cpp):**
-    
-    - Contains **function definitions (implementations)** and any internal logic.
+- Contains **class declarations, function prototypes, constants, macros**, and documentation.
+- No actual logic — just says _what exists_.    
+- **Source file (.cpp):** Contains **function definitions (implementations)** and any internal logic.
     
 - **Example:**
 
@@ -53,8 +49,8 @@ void Circle::draw()
 }
 ```
 
-- **Key Benefit:**
+**Key Benefit:**
 
-    - **Abstraction at project level:** Users include only .h files — they know _what functions exist_ but not _how they are implemented_.
-    - Easier to maintain and update implementations without changing the interface.
+- **Abstraction at project level:** Users include only .h files — they know what functions exist but not how they are implemented.
+- Easier to maintain and update implementations without changing the interface.
 
