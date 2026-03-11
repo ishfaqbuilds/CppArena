@@ -2,7 +2,7 @@
 
 This folder contains the visual assets for the Retro Snake game.
 
-## Files
+#### Files
 - `food.png` - Food texture for the snake
 - `preview.jpg` - Game preview image
 

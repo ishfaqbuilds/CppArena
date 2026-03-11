@@ -1,6 +1,6 @@
 When more than one subclass is inherited from a single base class then it's referred as Hierarchical [[Basic Inheritance|Inheritance]].
 
-## Example 1
+#### Example 1
 ```cpp
 #include <iostream>
 using namespace std;
@@ -43,7 +43,7 @@ int main()
 }
 ```
 
-## Example 2
+#### Example 2
 ```cpp
 #include <iostream>
 using namespace std;
@@ -97,7 +97,7 @@ int main()
 	return 0;
 }
 ```
-## Example 3
+#### Example 3
 ```cpp
 #include <iostream>
 using namespace std;

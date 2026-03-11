@@ -1,4 +1,4 @@
-### Tetris (C++ Game)
+#### Tetris (C++ Game)
 
 A classic Tetris game implementation in C++ using the **raylib** library. Features smooth gameplay, score tracking, next piece preview, and background music.
 

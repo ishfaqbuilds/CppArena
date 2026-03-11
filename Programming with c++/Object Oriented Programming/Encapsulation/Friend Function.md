@@ -5,7 +5,7 @@
 - Useful for operator overloading
 
 
-### Friend Function
+#### Friend Function
 
 ```cpp
 #include <iostream>
@@ -33,7 +33,7 @@ int main() {
 }
 ```
 
-### Friend Class
+#### Friend Class
 
 A friend class can access private members of another class.
 ```cpp

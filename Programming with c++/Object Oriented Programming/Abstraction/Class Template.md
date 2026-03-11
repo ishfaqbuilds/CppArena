@@ -1,9 +1,9 @@
 A **class template** is a blueprint for creating classes that work with **any data type**. Instead of writing multiple classes for int, float, double, etc., you write **one template** that works for all. We also have [[Function Template]] similar to class template.
-###  **Why Use Class Templates?**
+####  **Why Use Class Templates?**
 - **Code reusability**: One class, multiple types.   
 - **Type flexibility**: Works with any data type.
 - **Cleaner code**: Avoids redundancy.
-## Class Template (Single Parameter)
+#### Class Template (Single Parameter)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -36,7 +36,7 @@ int main()
 }
 ```
 
-## Class Template (Multiple Parameter)
+#### Class Template (Multiple Parameter)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 }
 ```
 
-## Generic Template (Sum)
+#### Generic Template (Sum)
 ```cpp
 #include <iostream>
 using namespace std;

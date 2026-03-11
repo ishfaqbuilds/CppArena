@@ -1,4 +1,4 @@
-### Retro Snake (C++ Game)
+#### Retro Snake (C++ Game)
 
 A classic Snake game implementation in C++ using the **raylib** library. Features smooth gameplay, score tracking, and retro-style graphics with sound effects.
 

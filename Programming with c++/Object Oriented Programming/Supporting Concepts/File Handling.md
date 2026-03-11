@@ -5,35 +5,35 @@ File handling is the process of creating, reading, writing, and manipulating fil
 - Create logs and reports
 - Exchange data between programs
 
-## Why Use File Handling?
+#### Why Use File Handling?
 1. **Permanent Storage**: Data in variables is lost when program ends, but files preserve data
 2. **Large Data Processing**: Handle datasets too large for memory
 3. **Data Exchange**: Share data between different programs
 4. **Backup and Recovery**: Create backups of important data
 5. **Configuration**: Store program settings and preferences
 
-## File Stream Classes in C++
+#### File Stream Classes in C++
 C++ provides three main classes for file operations:
 
-### 1. `ifstream` (Input File Stream)
+#### 1. `ifstream` (Input File Stream)
 
 - Used for **reading** from files
 - Inherits from `istream`
 - Opens files in read mode by default
 
-### 2. `ofstream` (Output File Stream)
+#### 2. `ofstream` (Output File Stream)
 
 - Used for **writing** to files
 - Inherits from `ostream`
 - Opens files in write mode by default
 
-### 3. `fstream` (File Stream)
+#### 3. `fstream` (File Stream)
 
 - Used for both **reading and writing**
 - Inherits from both `istream` and `ostream`
 - Most versatile but requires explicit mode specification
 
-## File Opening Modes
+#### File Opening Modes
 
 |Mode|Description|Use Case|
 |---|---|---|
@@ -44,7 +44,7 @@ C++ provides three main classes for file operations:
 |`ios::trunc`|Truncate|Clear file contents when opening|
 |`ios::binary`|Binary mode|Handle binary data (images, executables)|
 
-## File Handling Example
+#### File Handling Example
 
 ```cpp
 #include <iostream>

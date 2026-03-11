@@ -1,5 +1,5 @@
 
-## Pure Virtual Function
+#### Pure Virtual Function
 A pure virtual function in c++ is a virtual function for which we do not have an implementation. The pure virtual function is initialized to zero (0).
 
 ```cpp

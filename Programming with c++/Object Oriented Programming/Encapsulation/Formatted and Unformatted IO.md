@@ -1,4 +1,4 @@
-## Formatting using Manipulators
+#### Formatting using Manipulators
 **What is it?
 1. Uses functions from "iomanip" to control how output appears.
 2. It’s cleaner and easier to read.
@@ -22,7 +22,7 @@ int main() {
 }
 ```
 
-## Formatting using ios class flag
+#### Formatting using ios class flag
 **What is it?
 1. Uses **ios class member functions or flags** to format output.
 2. More low-level control.

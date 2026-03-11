@@ -24,7 +24,7 @@ public:
 };
 ```
 
-## **Access Specifiers (public, private, protected)**
+#### **Access Specifiers (public, private, protected)**
 
 - **Definition:** Access specifiers control the visibility of class members (variables and functions).
     
@@ -52,7 +52,7 @@ protected:
 
 - **Key Point:** Proper use of access specifiers is the foundation of encapsulation.
 
-## **Getters and Setters (Accessor / Mutator Methods)**
+#### **Getters and Setters (Accessor / Mutator Methods)**
 
 - **Definition:** Special public functions that provide controlled access to private data.
     
@@ -82,7 +82,7 @@ public:
 
 - **Key Point:** Always prefer getters/setters over making data public directly.
 
-## **Static Members (Class Variables and Functions)**
+#### **Static Members (Class Variables and Functions)**
 
 - **Definition:** Members shared by all objects of a class rather than each object having its own copy.
     

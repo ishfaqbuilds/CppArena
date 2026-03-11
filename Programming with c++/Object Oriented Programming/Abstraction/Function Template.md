@@ -1,4 +1,4 @@
-## Generic Function To Add using Vector
+#### Generic Function To Add using Vector
 ```cpp
 #include <iostream>
 #include <vector>
@@ -65,7 +65,7 @@ int main()
 }
 ```
 
-## Generic Function To Sum using Array
+#### Generic Function To Sum using Array
 ```cpp
 #include <iostream>
 using namespace std;
@@ -94,7 +94,7 @@ int main()
 }
 ```
 [[Class Template#Generic Template (Sum)|Check Out Sum Class Template]]
-## Generic Function (Multiple Parameter)
+#### Generic Function (Multiple Parameter)
 ```cpp
 #include <iostream>
 #include <string>

@@ -4,7 +4,7 @@ An abstract class is a base class that cannot be instantiated (cannot create obj
 1. Define common interfaces for derived classes.
 2. Force derived classes to implement specific behavior.
 3. Supports polymorphism and helps in designing scalable and flexible code.
-## Abstract Class:
+#### Abstract Class:
 
 ```cpp
 #include <iostream>

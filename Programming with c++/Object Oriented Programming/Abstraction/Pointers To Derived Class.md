@@ -1,6 +1,6 @@
-## Imp. Note
+#### Imp. Note
 Base class pointers always call base class functions. It doesn't matter weather the "ptr" (pointer) is pointing to base object or derived object. its always gonna call the base class function. Unless the function is marked "virtual" in the base class which is known as virtual function.
-## **Example 1
+#### **Example 1
 
 ```cpp
 include <iostream>
@@ -42,7 +42,7 @@ int main()
 ```
 
 Here, even tho i'm pointing the pointer at the derived object its still calling the speak function of the base class. This happened because we didn’t use "virtual" keyword in the speak function of the base class.
-## Virtual Function
+#### Virtual Function
 
 ```cpp
 #include <iostream>
@@ -96,8 +96,8 @@ int main()
 
 Note: Using the "virtual" keyword we can access other derived classes member functions as
 well using the base pointer. Though we know that when we create a base class pointer and pointing it to the base class pointer we still can just access base class member functions but using the virtual keyword allows us to point the base pointer to any derived class object and access the member functions from the derived classes.
-## Difference Between Early Binding and Late Binding
-### **Early Binding (Static Binding)**
+#### Difference Between Early Binding and Late Binding
+#### **Early Binding (Static Binding)**
 1. The function call is resolved **at compile time**.
 2. Uses **function overloading** or **compile-time polymorphism**.
 3. Typically occurs with **non-virtual functions**.
@@ -112,7 +112,7 @@ Base b;
 b.show();  // Early binding
 ```
 
-### **Late Binding (Dynamic Binding)**
+#### **Late Binding (Dynamic Binding)**
 1. The function call is resolved **at runtime**.
 2. Achieved using **virtual functions**.
 3. Enables **runtime polymorphism**, where the derived class function is called via a base class pointer.
@@ -133,7 +133,7 @@ ptr = &obj;
 ptr->show();  // Late binding (calls Derived's show)
 ```
 
-## Key Differences
+#### Key Differences
 
 |**Feature**|**Early Binding**|**Late Binding**|
 |---|---|---|

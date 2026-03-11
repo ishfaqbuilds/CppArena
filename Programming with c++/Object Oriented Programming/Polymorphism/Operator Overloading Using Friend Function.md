@@ -1,5 +1,5 @@
 
-## Addition Operator ( + ) using Friend Function 
+#### Addition Operator ( + ) using Friend Function 
 
 ```cpp
 #include <iostream> 
@@ -47,7 +47,7 @@ int main()
 
 ---
 
-## Logical And ( && ) using Friend Function
+#### Logical And ( && ) using Friend Function
 
 ```cpp
 #include <iostream>
@@ -89,7 +89,7 @@ int main()
 
 ---
 
-## Pre Increment ( ++p ) using Friend Function
+#### Pre Increment ( ++p ) using Friend Function
 
 ```cpp
 #include <iostream>

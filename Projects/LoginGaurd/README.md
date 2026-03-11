@@ -1,4 +1,4 @@
-### LoginGaurd (Cpp Terminal)
+#### LoginGaurd (Cpp Terminal)
 
 A beginner-friendly C++ console application for user authentication with **Login**, **Signup**, and **Forgot Password** functionality. Data is stored in a simple text file inside the `data/` folder.
 
