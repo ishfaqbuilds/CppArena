@@ -1,3 +1,5 @@
+## Namespace
+
 A namespace is a **logical container** for identifiers (variables, functions, classes) to **avoid name conflicts**.
 
 **Syntax:**
@@ -24,5 +26,5 @@ using namespace MySpace;  // Now we can directly call display()
 display();
 ```
 
-- **Key point:** Organizes code in **large projects** to prevent naming collisions.
+Key point: Organizes code in **large projects** to prevent naming collisions.
 
