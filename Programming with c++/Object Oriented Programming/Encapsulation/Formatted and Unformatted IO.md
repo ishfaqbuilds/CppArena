@@ -1,8 +1,10 @@
-#### Formatting using Manipulators
-**What is it?
+## Formatted and Unformatted IO
+
+### Formatting using Manipulators
+What is it?
 1. Uses functions from "iomanip" to control how output appears.
 2. It’s cleaner and easier to read.
-3. - Examples: setw( ), setfill( ), setprecision( ), fixed, showpos, etc.
+3. Examples: `setw( )`, `setfill( )`, `setprecision( )`, `fixed`, `showpos`, etc.
 
 ```cpp
 #include <iostream>
@@ -22,8 +24,8 @@ int main() {
 }
 ```
 
-#### Formatting using ios class flag
-**What is it?
+### Formatting using ios class flag
+What is it?
 1. Uses **ios class member functions or flags** to format output.
 2. More low-level control.
 3. Examples: ios::showpos, ios::fixed, ios::left, etc.
