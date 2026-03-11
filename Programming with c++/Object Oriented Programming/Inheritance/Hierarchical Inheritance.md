@@ -1,4 +1,5 @@
-When more than one subclass is inherited from a single base class then it's referred as Hierarchical [[Basic Inheritance|Inheritance]].
+## Hierarchical Inheritance
+When more than one subclass is inherited from a single base class then it's referred as Hierarchical Inheritance.
 
 #### Example 1
 ```cpp
