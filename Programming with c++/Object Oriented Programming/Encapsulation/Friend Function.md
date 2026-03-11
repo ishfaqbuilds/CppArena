@@ -1,11 +1,12 @@
-**Key Points:** 
+## Friend Function
+
+Key Points:
 - Not member functions but can access private/protected members 
 - Declared with `friend` keyword inside class 
 - Breaks encapsulation but provides flexibility 
 - Useful for operator overloading
-
-
-#### Friend Function
+  
+### Friend Function
 
 ```cpp
 #include <iostream>
@@ -33,7 +34,7 @@ int main() {
 }
 ```
 
-#### Friend Class
+### Friend Class
 
 A friend class can access private members of another class.
 ```cpp
