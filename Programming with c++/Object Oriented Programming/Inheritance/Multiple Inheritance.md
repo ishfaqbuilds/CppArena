@@ -1,4 +1,6 @@
-When a class can inherit from more than one base class then it's referred as Multiple [[Basic Inheritance|Inheritance]].
+## Multiple Inheritance
+
+When a class can inherit from more than one base class then it's referred as Multiple Basic Inheritance.
 
 ```cpp
 #include <iostream>
