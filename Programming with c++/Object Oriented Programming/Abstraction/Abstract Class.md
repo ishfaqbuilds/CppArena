@@ -1,9 +1,12 @@
+## Abstract Class
+
 An abstract class is a base class that cannot be instantiated (cannot create objects of an abstract class type) on its own and is designed to be inherited by other classes. It usually contains at least one **pure virtual function**.
 
-**Why abstract class is needed?
+#### Why abstract class is needed?
 1. Define common interfaces for derived classes.
 2. Force derived classes to implement specific behavior.
 3. Supports polymorphism and helps in designing scalable and flexible code.
+   
 #### Abstract Class:
 
 ```cpp
