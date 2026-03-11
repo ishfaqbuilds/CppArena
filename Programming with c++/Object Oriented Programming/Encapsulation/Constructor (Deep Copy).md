@@ -1,4 +1,6 @@
-**Key Points:** 
+## Constructor (Deep Copy)
+
+Key Points:
 - Creates separate memory for dynamic data 
 - Prevents shallow copy problems 
 - Essential when class has pointer members 
