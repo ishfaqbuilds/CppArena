@@ -1,11 +1,12 @@
+## Basic Polymorphism
+
 Polymorphism allows one interface to represent many forms.
-
-- **Importance:** Makes code extensible and reusable.
-- **Types in C++:**
-    - **Compile-time (static):** Function overloading, operator overloading.
-	- **Run-time (dynamic):** Virtual functions and overriding.
-
-- **Virtual functions:** Enable runtime behavior changes via base class pointers.
+Importance: Makes code extensible and reusable.
+Types in C++:
+- Compile-time (static): Function overloading, operator overloading.
+- Run-time (dynamic): Virtual functions and overriding.
+  
+Virtual functions: Enable runtime behavior changes via base class pointers.
 
 ###### Example
 ```cpp
