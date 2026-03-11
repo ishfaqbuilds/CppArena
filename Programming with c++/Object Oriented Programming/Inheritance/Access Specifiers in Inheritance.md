@@ -1,7 +1,8 @@
+## Access Specifiers in Inheritance
 
-- **Definition:** The type of inheritance (public, protected, private) determines how base class members are inherited by the derived class.
+Definition: The type of inheritance (public, protected, private) determines how base class members are inherited by the derived class.
 
-- **Rules Table:**
+Rules Table:
 
 | **Base Class Member** | **Public Inheritance** | **Protected Inheritance** | **Private Inheritance** |
 | --------------------- | ---------------------- | ------------------------- | ----------------------- |
@@ -9,7 +10,7 @@
 | protected             | protected              | protected                 | private                 |
 | private               | Not inherited          | Not inherited             | Not inherited           |
 
-- **Example:**
+Example:
 ```cpp
 class Base 
 {
@@ -37,4 +38,4 @@ class Derived3 : private Base
 };
 ```
 
-- **Key Point:** Use public inheritance for “is-a” relationships. Protected/private are rarely used outside specific design needs.
+Key Point: Use public inheritance for “is-a” relationships. Protected/private are rarely used outside specific design needs.
