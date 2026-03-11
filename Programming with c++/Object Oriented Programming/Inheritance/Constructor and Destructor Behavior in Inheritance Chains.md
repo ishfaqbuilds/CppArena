@@ -1,15 +1,12 @@
-- **Constructor Call Order:**
+## Constructor and Destructor Behavior in Inheritance Chains
+
+### Constructor Call Order:
+- Base class constructors are called before derived class constructors.
+- Order of constructor calls follows the inheritance hierarchy (top to bottom).
+- If there are multiple base classes, they are called in the order they appear in the inheritance list.
     
-    - **Base class constructors are called before derived class constructors**.
-        
-    - Order of constructor calls follows the inheritance hierarchy (top to bottom).
-        
-    - If there are multiple base classes, they are called in the order they appear in the inheritance list.
-    
-- **Destructor Call Order:**
-    
-    - **Reverse of constructors:** Derived class destructors run first, then base class destructors.
-    
+### Destructor Call Order:
+- **Reverse of constructors:** Derived class destructors run first, then base class destructors.
 - **Example:**
 
 Input:
@@ -41,5 +38,4 @@ B constructor
 B destructor
 A destructor
 ```
-
-- **Key Point:** Always make destructors virtual in base classes if you expect polymorphic deletion (using base pointers).
+Key Point: Always make destructors virtual in base classes if you expect polymorphic deletion (using base pointers).
