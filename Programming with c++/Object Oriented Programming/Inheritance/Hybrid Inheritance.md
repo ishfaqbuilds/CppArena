@@ -1,4 +1,6 @@
-The combination of more than one type of inheritance is known as Hybrid [[Basic Inheritance|Inheritance]].
+## Hybrid Inheritance
+
+The combination of more than one type of inheritance is known as Hybrid Basic Inheritance.
 
 ```cpp
 #include <iostream>
