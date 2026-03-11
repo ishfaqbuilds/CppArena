@@ -1,3 +1,5 @@
+## Exception Handling
+
 **Key Points:** 
 - `try-catch-throw` mechanism 
 - Custom exception classes 
