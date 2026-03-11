@@ -1,24 +1,27 @@
+## Operator Overloading
+
 Operator Overloading is a feature in Programming Language that allows us to define **CUSTOM** behavior for operators (like +, -, /, == etc.) when they are used with user defined types like classes or structures.
 
-#### *What it does?
+### What it does?
 When you overload an operator, you're essentially telling the compiler or interpreter what should happen when that operator is applied to objects of your custom type. Instead of the operator having only its built-in meaning (like + for adding numbers), you can make it work with your objects in a meaningful way.
 
-#### **Types of Operators You Can Overload**
+### Types of Operators You Can Overload
 
 1. **Binary:** (Addition +) ,(Subtraction -) , (Multiplication x), (Division /) 
 2. **Relational:** == , != , < , > , <= , >=
 3. **Assignment:** =, +=, -= etc.
 4. **Unary:** ++, --, ! etc.
-#### **Operators You Cannot Overload**
+   
+### Operators You Cannot Overload
+Operators like `Dot (member access)`, `Ternary Operator ( ? : )`, `sizeof`, `typeid`, `Scope Resolution ( :: )` etc.
 
-Operators like Dot (member access), Ternary Operator ( ? : ), sizeof, typeid, Scope Resolution ( :: ) etc.
-#### **In binary operator why only the right side operand is passed as argument?**
+### **In binary operator why only the right side operand is passed as argument?**
 In binary operator overloading, the left-hand operand is the object that calls the function, and the right-hand operand is passed as an argument. This is because binary operators are implemented as **member functions**, where the **calling object is the left-hand side operand (this)**.
 
-#### **When do we prefer friend function over member function for operator overloading**
+### When do we prefer friend function over member function for operator overloading
 We prefer **friend functions** over member functions for operator overloading when the left-hand operand is not an object of the class, such as when it’s a built-in type (e.g., 5 + obj). Member functions always treat the left-hand operand as the calling object (this), so if that operand is a primitive type, a member function won’t work. Friend functions also provide better symmetry for binary operations where both operands should be treated equally, and they allow access to the private members of both operands if necessary. On the other hand, member functions are typically preferred when the left-hand operand is an object of the class, especially for assignment (=, +=, etc.) and unary operators like ++ or --. Member Function (obj1 + obj2) and Friend Function (5 + obj1) works like this.
 
-#### Quick Reference Table
+### Quick Reference Table
 
 | Operation Type        | Return    | Example              |
 | --------------------- | --------- | -------------------- |
@@ -29,7 +32,7 @@ We prefer **friend functions** over member functions for operator overloading wh
 | `obj++` (post)        | `temp`    | `counter++`          |
 | `<<`, `>>` (streams)  | `stream&` | `cout << obj`        |
 
-#### Addition Operator ( + )
+### Addition Operator ( + )
 
 ```cpp
 #include <iostream>
@@ -68,7 +71,7 @@ int main()
 
 ---
 
-#### Subtraction Operator ( - )
+### Subtraction Operator ( - )
 
 ```cpp
 #include <iostream>
@@ -107,7 +110,7 @@ int main()
 
 ---
 
-#### Assignment Operator ( = )
+### Assignment Operator ( = )
 
 ```cpp
 #include <iostream>
@@ -141,7 +144,7 @@ int main()
 
 ---
 
-#### Less Than Operator ( < ) Single Relation
+### Less Than Operator ( < ) Single Relation
 
 ```cpp
 #include <iostream>
@@ -192,7 +195,7 @@ int main()
 
 ---
 
-#### Less Than Operator ( < ) Multiple Relation
+### Less Than Operator ( < ) Multiple Relation
 
 ```cpp
 #include <iostream>
@@ -242,7 +245,7 @@ int main()
 
 ---
 
-#### Equality Operator ( == )
+### Equality Operator ( == )
 
 ```cpp
 #include <iostream>
@@ -281,7 +284,7 @@ int main()
 
 ---
 
-#### Unary Operator ( ++p ) and ( p++ )
+### Unary Operator ( ++p ) and ( p++ )
 
 **Only Pre Increment ( ++p ) and Post Increment ( p++ )**
 ```cpp
@@ -380,7 +383,7 @@ int main()
 
 ---
 
-#### MASTER EXAMPLE (ALL IN ONE)
+### MASTER EXAMPLE (ALL IN ONE)
 ```cpp
 #include <iostream>
 using namespace std;
