@@ -1,3 +1,4 @@
+## Function Overloading vs Function Overriding
 
 |**Feature**|**Overloading**|**Overriding**|
 |---|---|---|
@@ -6,7 +7,7 @@
 |**Class relationship**|Same class|Base & Derived classes|
 |**Keyword**|None|virtual (base class) + override (derived class, optional)|
 
-**Example:**
+Example:
 ```cpp
 // Overloading
 class Test 
