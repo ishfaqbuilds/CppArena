@@ -1,4 +1,6 @@
-**Key Points:** 
+## Constructor (Shallow Copy)
+
+Key Points:
 - Default copy constructor behavior 
 - Copies pointer addresses, not actual data 
 - Can lead to double deletion and dangling pointers 
