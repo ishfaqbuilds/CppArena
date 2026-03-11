@@ -1,14 +1,15 @@
+## Basic Abstraction
+
 Abstraction shows what an object does, not how it works internally.
 
-- **Importance:** Simplifies usage and hides implementation details.
+**Importance:** Simplifies usage and hides implementation details.
     
-- **Ways to achieve abstraction in C++:**
+**Ways to achieve abstraction in C++:**
     
-    - Abstract classes and **pure virtual functions** (virtual void f( ) = 0;).
-        
-    - Separate interface (header files) from implementation (source files).
+- Abstract classes and **pure virtual functions** (virtual void f( ) = 0;).   
+- Separate interface (header files) from implementation (source files).
 
-###### Example:
+#### Example:
 ```cpp
 class Shape 
 {
