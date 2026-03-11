@@ -1,4 +1,6 @@
-A derived class is created from another derived class (chain of inheritance) is known as Multilevel [[Basic Inheritance|Inheritance]].
+## Multilevel Inheritance
+
+A derived class is created from another derived class (chain of inheritance) is known as Multilevel Inheritance.
 
 ```cpp
 #include <iostream>
