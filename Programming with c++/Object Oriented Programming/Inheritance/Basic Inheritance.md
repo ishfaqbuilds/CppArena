@@ -1,6 +1,7 @@
-**Inheritance** is a feature of Object-Oriented Programming (OOP) that allows a class (**derived/child**) to **inherit properties and behavior** (data members and member functions) from another class (**base/parent**). It promotes **code reuse**, **extensibility**, and supports **polymorphism**.
+## Basic Inheritance
+Inheritance is a feature of Object-Oriented Programming (OOP) that allows a class (**derived/child**) to **inherit properties and behavior** (data members and member functions) from another class (**base/parent**). It promotes **code reuse**, **extensibility**, and supports **polymorphism**.
 
-#### Access Specifiers in Inheritance
+### Access Specifiers in Inheritance
 ```cpp
 #include <iostream>
 using namespace std;
@@ -53,7 +54,7 @@ int main()
 }
 ```
 
-#### Single Inheritance
+### Single Inheritance
 One class is derived from another single class!
 ```cpp
 #include <iostream>
@@ -87,7 +88,7 @@ int main()
 }
 ```
 
-#### Parameterized Inheritance
+### Parameterized Inheritance
 ```cpp
 #include <iostream>
 #include <string>
@@ -129,7 +130,7 @@ int main()
 }
 ```
 
-#### Non Parameterized Inheritance
+### Non Parameterized Inheritance
 ```cpp
 #include <iostream>
 #include <string>
