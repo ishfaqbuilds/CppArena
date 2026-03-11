@@ -1,4 +1,6 @@
-A nested class is a class declared within the scope of another class is referred as Nesting In [[Basic Inheritance|Inheritance]].
+## Nesting In Inheritance
+
+A nested class is a class declared within the scope of another class is referred as Nesting In Inheritance.
 
 ```cpp
 #include <iostream>
