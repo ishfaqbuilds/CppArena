@@ -1,7 +1,7 @@
+## Encapsulation
 Encapsulation is bundling data (variables) and methods (functions) into a single unit, usually a class.
 
-**Key Points:** 
-
+Key Points:
 - **Encapsulation:** Data hiding using access specifiers.
 - **Importance:** Protects data, prevents unintended modification, and improves modularity.
 - **Access specifiers:** public, private, protected – control how data and methods are accessed.
@@ -24,19 +24,14 @@ public:
 };
 ```
 
-#### **Access Specifiers (public, private, protected)**
+### Access Specifiers (public, private, protected)
+Definition: Access specifiers control the visibility of class members (variables and functions).
+Types:
+- **public:** Accessible from anywhere in the program.
+- **private:** Accessible only within the same class. _(default for class members)_
+- **protected:** Accessible within the same class and its derived classes, but not from outside.
 
-- **Definition:** Access specifiers control the visibility of class members (variables and functions).
-    
-- **Types:**
-    
-    - **public:** Accessible from anywhere in the program.
-        
-    - **private:** Accessible only within the same class. _(default for class members)_
-        
-    - **protected:** Accessible within the same class and its derived classes, but not from outside.
-    
-- **Example:**
+Example:
 
 ```cpp
 class Example
@@ -50,21 +45,16 @@ protected:
 };
 ```
 
-- **Key Point:** Proper use of access specifiers is the foundation of encapsulation.
+Key Point: Proper use of access specifiers is the foundation of encapsulation.
 
-#### **Getters and Setters (Accessor / Mutator Methods)**
-
-- **Definition:** Special public functions that provide controlled access to private data.
-    
-- **Purpose:**
-    
+### Getters and Setters (Accessor / Mutator Methods)
+Definition: Special public functions that provide controlled access to private data.
+Purpose:
     - Protect internal state.
-        
     - Allow validation before changing values.
-        
     - Hide internal implementation details.
-    
-- **Example:**
+	
+**Example:**
 
 ```cpp
 class BankAccount 
@@ -80,21 +70,16 @@ public:
 };
 ```
 
-- **Key Point:** Always prefer getters/setters over making data public directly.
+Key Point: Always prefer getters/setters over making data public directly.
 
-#### **Static Members (Class Variables and Functions)**
-
-- **Definition:** Members shared by all objects of a class rather than each object having its own copy.
-    
-- **Characteristics:**
-    
+### Static Members (Class Variables and Functions)
+Definition: Members shared by all objects of a class rather than each object having its own copy.
+Characteristics:
     - Declared with the static keyword.
-        
     - Stored in a single shared memory location.
-        
     - Can be accessed using the class name directly.
     
-- **Example (Static Variable):**
+Example (Static Variable):
 
 ```cpp
 class Counter 
@@ -115,7 +100,7 @@ int main()
 }
 ```
 
-- **Example (Static Function):**
+Example (Static Function):
 
 ```cpp
 class Utility 
@@ -133,7 +118,7 @@ int main()
 }
 ```
 
-- **Key Point:** Use static members for information or functionality common to all objects of a class.
+Key Point: Use static members for information or functionality common to all objects of a class.
 
 
 
