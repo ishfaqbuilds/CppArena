@@ -1,3 +1,4 @@
+## Operator Overloading Using Friend Function
 
 #### Addition Operator ( + ) using Friend Function 
 
@@ -43,8 +44,6 @@ int main()
 	return 0;
 }
 ```
-**[[Operator Overloading#Addition Operator ( + ) | Without Friend Function]]**
-
 ---
 
 #### Logical And ( && ) using Friend Function
@@ -128,5 +127,3 @@ int main()
 	return 0;
 }
 ```
-**[[Operator Overloading#Unary Operator ( ++p ) and ( p++ )|Without Friend Function]]**
-
