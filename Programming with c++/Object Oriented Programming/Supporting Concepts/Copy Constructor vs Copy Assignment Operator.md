@@ -1,3 +1,4 @@
+## Copy Constructor vs Copy Assignment Operator
 
 | **Feature**            | **Copy Constructor**                             | **Copy Assignment Operator**                          |
 | ---------------------- | ------------------------------------------------ | ----------------------------------------------------- |
@@ -38,8 +39,6 @@ int main()
 }
 ```
 
-- **Key point:**
-    
-    - Copy constructor = new object initialized from another object.
-        
-    - Copy assignment = existing object overwritten by another object.
+Key point:
+- Copy constructor = new object initialized from another object.
+- Copy assignment = existing object overwritten by another object.
